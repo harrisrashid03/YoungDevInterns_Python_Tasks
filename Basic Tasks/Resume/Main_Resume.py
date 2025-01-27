@@ -53,6 +53,8 @@ def main():
     # Awards and Achievements (Customized based on LinkedIn data)
     st.header("Awards and Achievements")
     awards = ["Award 1", "Award 2", "Award 3"]
+
+    
     for award in awards:
         st.checkbox(award)
 
